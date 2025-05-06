@@ -5,7 +5,7 @@
         $response = array();
         $data = array();
 
-        if ($select->num_rows > 0) {
+        if ($select) {
             while ($note = $select->fetch_assoc()) {
                 array_push($data, $note);
             }

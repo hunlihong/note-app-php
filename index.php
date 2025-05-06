@@ -55,7 +55,7 @@
                         </div>
                         <div class="status-block"></div>
                         <div class="mt-5 d-flex justify-content-end align-items-center gap-2">
-                            <button class="btn btn-secondary" data-dismiss="modal" type="button">Cancel</button>
+                            <button class="btn btn-secondary btn-cancel" type="button">Cancel</button>
                             <button class="btn btn-dark" type="submit">Create</button>
                         </div>
                     </form>
